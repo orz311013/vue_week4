@@ -3,7 +3,7 @@
 //  3.解除版型內的錯誤
 //  4.refs bootstrap
 export default {
-  props: ['tempProduct', 'deleteProduct'],
+  props: ['tempProduct', 'delProduct'],
   data() {
     return {
       modalDel: null,

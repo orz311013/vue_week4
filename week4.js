@@ -79,8 +79,8 @@ const app = createApp({
             axios
                 .delete(api)
                 .then((res) => {
-                    this.getProducts();
                     this.$refs.delModal.hideModal();
+                    this.getProducts();
                     //   this.modalDel.hide();
                 })
                 .catch((err) => {
